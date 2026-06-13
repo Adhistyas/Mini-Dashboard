@@ -1,0 +1,104 @@
+body {
+  min-height: 100vh;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.shape1 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background: #7fe3e0;
+  border-radius: 40% 60% 70% 30%;
+  right: -200px;
+  top: -50px;
+  z-index: 0;
+}
+.shape2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #2f56f5;
+  border-radius: 50% 50% 20% 80%;
+  right: 150px;
+  top: 150px;
+  z-index: 0;
+}
+.login-card {
+  width: 450px;
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+  position: relative;
+}
+
+.login-logo {
+  width: 90px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.15));
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  border-radius: 0;
+  padding-left: 40px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #2f56f5;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper i {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #999;
+}
+
+.form-select {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  border-radius: 0;
+  height: 45px;
+  /* background: transparent; */
+  color: #999;
+}
+
+.form-select:focus {
+  box-shadow: none;
+  border-color: #2f56f5;
+}
+
+.btn-login {
+  background: #2f56f5;
+  border: none;
+  border-radius: 12px;
+  height: 50px;
+  font-weight: 600;
+}
+
+.btn-login:hover {
+  background: #2044d4;
+}
+
+.register-link {
+  text-decoration: none;
+  color: #2f56f5;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.register-link:hover {
+  color: #2044d4;
+}
