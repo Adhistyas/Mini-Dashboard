@@ -1,6 +1,6 @@
 # Mini-Dashboard
 
-Mini Dashboard adalah aplikasi dashboard berbasis PHP dan MySQL yang digunakan untuk mengelola data melalui antarmuka web.
+Mini Dashboard adalah aplikasi dashboard berbasis PHP dan MySQL yang digunakan untuk mengelola data user melalui antarmuka web.
 
 ## Persyaratan
 
